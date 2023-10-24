@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.backgroundImage{
+    background-image: url('./assets//Path.png');
+    height: 100%;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .sidebar.open {
+    transform: translateX(0);
+  }
